@@ -14,7 +14,7 @@ import PFPs from './PFPs';
 import Collectibles from './Collectibles';
 import Art from './Art';
 import Info from './Info';
-import Home from './Home';
+import Home from './Klausenart';
 import TopNav from '@/components/TopNav';
 import { RouteName } from '@/constant/routeNames';
 import { useUpdateShop } from '@/hooks/useUpdateShop';
@@ -26,7 +26,7 @@ export const ShopRouter = () => {
       <MainContainer>
         <TopNav />
         <Routes>
-          <Route path={RouteName.home} element={<Home />} />
+          <Route path={RouteName.home} element={<Klausenart />} />
           <Route path={RouteName.marketplaceMint} element={<SingleOrder />} />
           <Route path={RouteName.sell} element={<MyCollection />} />
           <Route path={RouteName.auctionsView} element={<AuctionsView />} />
