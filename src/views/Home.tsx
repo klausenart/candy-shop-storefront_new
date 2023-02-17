@@ -5,7 +5,7 @@ import { useUserWallet } from '@/hooks/useUserWallet';
 import { useShopStore } from '@/store/useShopStore';
 
 
-const Klausenart: React.FC = () => {
+const Home: React.FC = () => {
  return(
     <DesContainer>
 
@@ -23,7 +23,7 @@ const Klausenart: React.FC = () => {
   );
 };
 
-export default Klausenart;
+export default Home;
 
 
 const DesContainer = styled.div`
