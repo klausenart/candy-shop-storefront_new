@@ -17,7 +17,7 @@ const Home: React.FC = () => {
            </div>
            <div style ={{display:'flex', justifyContent:'center'}}>
              <img
-              src="/Digital_Artwork_01.png"
+              src="/bg_home.png"
               alt="Klausenart"
               style={{maxWidth: '100%', maxHeight: '600px',  height:'auto'}} />
             </div>
