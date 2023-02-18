@@ -18,6 +18,7 @@ const Home: React.FC = () => {
            <div style ={{display:'flex', justifyContent:'center'}}>
              <img
               src="/bg_home.png"
+              loading="lazy"
               alt="Klausenart"
               style={{maxWidth: '100%', maxHeight: '600px',  height:'auto'}} />
             </div>
