@@ -14,7 +14,7 @@ import PFPs from './PFPs';
 import Collectibles from './Collectibles';
 import Art from './Art';
 import Info from './Info';
-import Home from './';
+import Home from './Home';
 import TopNav from '@/components/TopNav';
 import { RouteName } from '@/constant/routeNames';
 import { useUpdateShop } from '@/hooks/useUpdateShop';
