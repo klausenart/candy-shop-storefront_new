@@ -1,7 +1,7 @@
 export enum RouteName {
   activityView = '/activity',
   auctionsView = '/auctions',
-  home = '/home',
+  home = '/',
   marketplace = '/marketplace',
   marketplaceMint = '/marketplace/:tokenMint',
   sell = '/sell',
