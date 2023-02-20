@@ -34,7 +34,7 @@ const Collectibles: React.FC = () => {
 export default Collectibles;
 
 const FILTERS = [
-  { name: 'Bonsai Dreams', collectionId: '1', identifier: 278310531 },
+  { name: 'Bonsai', collectionId: '1', identifier: -899267302 },
   { name: 'Dragon Coin', collectionId: '2', identifier: -1827299029 },
 ];
 
