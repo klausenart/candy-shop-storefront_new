@@ -23,6 +23,7 @@ const Collectibles: React.FC = () => {
         walletConnectComponent={<ConnectButton />}
         filters={FILTERS}
         shopFilters = {false}
+        filterType = {'dropdown'}
         
 
         
