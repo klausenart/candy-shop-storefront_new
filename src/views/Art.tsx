@@ -22,7 +22,7 @@ const Art: React.FC = () => {
         candyShop={candyShop}
         walletConnectComponent={<ConnectButton />}
         filters={FILTERS}
-        filterType={'dropdown'}
+        filterType={'list'}
         
 
         
