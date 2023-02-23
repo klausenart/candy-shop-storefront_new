@@ -22,7 +22,6 @@ const Collectibles: React.FC = () => {
         candyShop={candyShop}
         walletConnectComponent={<ConnectButton />}
         filters={FILTERS}
-        shopFilters = {false}
         filterType = {'dropdown'}
         
 
