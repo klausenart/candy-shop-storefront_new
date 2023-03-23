@@ -5,7 +5,7 @@ import { useUserWallet } from '@/hooks/useUserWallet';
 import { useShopStore } from '@/store/useShopStore';
 
 
-const Klausenart: React.FC = () => {
+const Tokenomics: React.FC = () => {
  return(
     <DesContainer>
 
@@ -76,7 +76,7 @@ const Klausenart: React.FC = () => {
   );
 };
 
-export default Klausenart;
+export default Tokenomics;
 
 
 const DesContainer = styled.div`
