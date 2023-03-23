@@ -248,7 +248,7 @@ const SocialMedia = styled.div`
 
 const Button = styled.button`
   border: none;
-  color: #fff;
+  color: #00FFFFFF;
   cursor: pointer;
   display: flex;
   align-items: center;
