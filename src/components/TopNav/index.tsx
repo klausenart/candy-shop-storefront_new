@@ -283,7 +283,8 @@ const Button = styled.button`
   padding: 0px 0px;
   //border-radius: 40px;
   //background-color: 'transparent';
-  backgroundColor: 'transparent';
+  background-color: rgba(255, 255, 255, 0);
+  //backgroundColor: 'transparent';
   //background-color: #00FFFFFF;
   //background-color: #4e44ce;
   margin: 0 auto;
