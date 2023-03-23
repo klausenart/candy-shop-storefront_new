@@ -78,6 +78,11 @@ const TopNav: React.FC = () => {
     prevOpen.current = open;
   }, [open]);
 
+  const handleTwitter = () => {
+    window.location.replace('https://twitter.com/KlausenArt');
+  };
+  
+  
   return (
     <HeaderBar>
       
@@ -127,9 +132,7 @@ const TopNav: React.FC = () => {
         
       </Menu>
       <SocialMedia>
-        <Link to="https://twitter.com/KlausenArt">
-          <img alt="" src="/logo.png" />
-        </Link>
+        <button onClick={handleTwitter}> <img alt="" src="/logo.png" /> </button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
