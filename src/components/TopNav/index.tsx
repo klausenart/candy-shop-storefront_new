@@ -126,6 +126,11 @@ const TopNav: React.FC = () => {
         )}
         
       </Menu>
+      <SocialMedia>
+        <Link to="https://twitter.com/KlausenArt">
+          <img alt="" src="/logo.png" />
+        </Link>
+      </SocialMedia>
       <Wallet>
         <ConnectButton />
       </Wallet>
@@ -206,6 +211,16 @@ const Wallet = styled.ul`
 `;
 
 const Logo = styled.div`
+  flex: 0 0 auto;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+  img {
+    height: 60px;
+  }
+`;
+
+const SocialMedia = styled.div`
   flex: 0 0 auto;
   margin-right: 10px;
   margin-bottom: 20px;
