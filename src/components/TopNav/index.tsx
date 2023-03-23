@@ -141,9 +141,9 @@ const TopNav: React.FC = () => {
         
       </Menu>
       
-      <TwitterButton onClick={handleTwitter}> 
+      <Button onClick={handleTwitter}> 
           <img alt="" src="/twitter.png" />
-      </TwitterButton>
+      </Button>
       
       <SocialMedia>
         <button onClick={handleInsta}> <img alt="" src="/insta.png" /> </button>
@@ -249,7 +249,7 @@ const SocialMedia = styled.div`
   }
 `;
 
-const TwitterButton = styled(Button)`
+const Button = styled(Button)`
   border: none;
   color: #fff;
   cursor: pointer;
