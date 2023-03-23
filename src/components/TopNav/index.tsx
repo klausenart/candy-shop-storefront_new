@@ -42,6 +42,7 @@ const ROUTES_KLAUSENART = [
   { url: RouteName.news, name: 'News' },
   { url: RouteName.gallery, name: 'Gallery' },
   { url: RouteName.roadmap, name: 'Roadmap' },
+  { url: RouteName.tokenomics, name: 'Tokenomics' },
 ];
 
 
