@@ -276,7 +276,8 @@ const Button = styled.button`
   //line-height: 30px;
   padding: 10px 0px;
   //border-radius: 40px;
-  background-color: #00FFFFFF;
+  backgroundColor: 'transparent':
+  //background-color: #00FFFFFF;
   //background-color: #4e44ce;
   margin: 0 auto;
   img {
