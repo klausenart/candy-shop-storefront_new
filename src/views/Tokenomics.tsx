@@ -21,7 +21,7 @@ const Tokenomics: React.FC = () => {
             <br></br>
 
             <p><b><u>Liquidity</u></b></p>
-            <p>Over the last months, $KART liquidity has benn increased on Raydium LPs, with 9 million KART placed in liquidity pools. At the time of writing, the TVL is approximately 6.6k $, with KART liquidity provided by multiple SPL tokens ($USDC, $SOL, $ATLAS, $BONK, $BATT) of the Solana ecosystem.
+            <p>Over the last months, $KART liquidity has been increased on Raydium LPs, with 9 million KART placed in liquidity pools. At the time of writing, the TVL is approximately 6.6k $, with KART liquidity provided by multiple SPL tokens ($USDC, $SOL, $ATLAS, $BONK, $BATT) of the Solana ecosystem.
             </p>
             <br></br>
             <div style ={{display:'flex', justifyContent:'center'}}>
@@ -44,7 +44,7 @@ const Tokenomics: React.FC = () => {
             <br></br>
             <div style ={{display:'flex', justifyContent:'center'}}>
                         <img
-                        src="/KART_Distribution.jpg"
+                        src="/KART_Distribution.JPG"
                         alt="KART_Distribution"
                         style={{maxWidth: '100%', maxHeight: '600px',  height:'auto'}} />
             </div>
