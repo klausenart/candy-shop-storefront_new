@@ -156,7 +156,7 @@ const TopNav: React.FC = () => {
         <Button onClick={handleInsta}> <img alt="" src="/insta.png" /> </Button>
         <Button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </Button>
         <Button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </Button>
-        <Button onClick={handleMagicEden> <img alt="" src="/magiceden.png" /> </Button>
+        <Button onClick={handleMagicEden}> <img alt="" src="/magiceden.png" /> </Button>
         <Button onClick={handleOpenSea}> <img alt="" src="/opensea2.png" /> </Button>
         <Button onClick={handleYoutube}> <img alt="" src="/youtube.png" /> </Button>
         <Button onClick={handleTiktok}> <img alt="" src="/tiktok.png" /> </Button>
