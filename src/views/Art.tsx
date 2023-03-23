@@ -34,7 +34,8 @@ const Art: React.FC = () => {
 export default Art;
 
 const FILTERS = [
-  { name: 'Fine Deko Art Flowers', collectionId: '1', identifier: -415216279 },
+  { name: 'Fine Art / Flowers', collectionId: '1', identifier: 0 },
+  { name: 'Landscapes / Romantic River', collectionId: '2', identifier: 0 },
 ];
 
 const DesContainer = styled.div`
