@@ -258,7 +258,7 @@ const Button = styled.button`
   height: 40px;
   width: 40px;
   line-height: 40px;
-  padding: 6px 24px;
+  padding: 1px 1px;
   border-radius: 40px;
   background-color: #4e44ce;
   margin: 0 auto;
