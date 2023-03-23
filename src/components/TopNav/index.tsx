@@ -280,13 +280,9 @@ const Button = styled.button`
   height: 30px;
   width: 30px;
   //line-height: 30px;
-  padding: 0px 0px;
+  padding: 0px 20px;
   //border-radius: 40px;
-  //background-color: 'transparent';
   background-color: rgba(255, 255, 255, 0);
-  //backgroundColor: 'transparent';
-  //background-color: #00FFFFFF;
-  //background-color: #4e44ce;
   margin: 0 auto;
   //margin: 0 10px;
   //margin-right: 10px;
