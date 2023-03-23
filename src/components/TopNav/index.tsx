@@ -21,7 +21,6 @@ const ROUTES_SOLANA = [
   { url: RouteName.pfps, name: 'PFPs' },
   { url: RouteName.digitalCollectibles, name: 'Collectibles' },
   { url: RouteName.digitalArt, name: 'Art' },
-  { url: RouteName.digitalArt, name: 'Social' },
 ];
 
 const getRoutes = () => {
@@ -134,6 +133,9 @@ const TopNav: React.FC = () => {
       </Menu>
       <SocialMedia>
         <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
@@ -230,7 +232,7 @@ const SocialMedia = styled.div`
   margin-bottom: 20px;
 
   img {
-    height: 60px;
+    height: 40px;
   }
 `;
 
