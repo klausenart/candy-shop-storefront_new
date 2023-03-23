@@ -282,7 +282,7 @@ const Button = styled.button`
   backgroundColor: 'transparent':
   //background-color: #00FFFFFF;
   //background-color: #4e44ce;
-  //margin: 0 auto;
+  margin: 0 auto;
   //margin: 0 10px;
   //margin-right: 10px;
   img {
