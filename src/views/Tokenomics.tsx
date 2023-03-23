@@ -20,7 +20,7 @@ const Tokenomics: React.FC = () => {
            </div>
             <br>
 
-            <p><b><u>Liquidity</b></u></p>
+            <p><b><u>Liquidity</u></b></p>
             <p>Over the last months, $KART liquidity has benn increased on Raydium LPs, with 9 million KART placed in liquidity pools. At the time of writing, the TVL is approximately 6.6k $, with KART liquidity provided by multiple SPL tokens ($USDC, $SOL, $ATLAS, $BONK, $BATT) of the Solana ecosystem.
             </p>
             <br>
@@ -33,7 +33,7 @@ const Tokenomics: React.FC = () => {
 
             <br>
 
-            <p><b><u>Token distribution</b></u></p>
+            <p><b><u>Token distribution</u></b></p>
             <p>The figure shows the current $KART token distribution:</p>
 
             &emsp;- open market (free available)<br>
@@ -50,7 +50,7 @@ const Tokenomics: React.FC = () => {
             </div>
             <br>
 
-            <p><b><u>Token Vesting by MeanFinance</b></u></p>
+            <p><b><u>Token Vesting by MeanFinance</u></b></p>
             <p>The LP tokens of the liquidity pools are put into vesting contracts by meanfinance, and are streamed back to the KART foundation wallet. That streams have been setup for 2 years, as a first step, but will be extended by new vesting streams over time, as the project is evolving. </p>
             In other words: The LP tokens will be continuously emitted over the next two years to provide that no liquidity can be drawn off from the pools by the team, and therefore increasing the reputation and trust of the KART ecosystem.</p>
             Adding more liquidity over time will also result in new vesting contracts to support the growth of the ecosystem. This will be defined by the team based on future strategy, as reflected in the roadmap.</p>
