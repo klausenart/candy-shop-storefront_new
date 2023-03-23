@@ -256,6 +256,7 @@ const SocialMedia = styled.div`
   flex: 0 0 auto;
   margin-right: 10px;
   margin-bottom: 20px;
+  padding: 20px;
   
 
   //img {
@@ -283,7 +284,7 @@ const Button = styled.button`
   //background-color: #4e44ce;
   //margin: 0 auto;
   //margin: 0 10px;
-  margin-right: 10px;
+  //margin-right: 10px;
   img {
     height: 30px;
     //margin-right: 3px;
