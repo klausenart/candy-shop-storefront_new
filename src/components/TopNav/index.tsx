@@ -79,28 +79,28 @@ const TopNav: React.FC = () => {
   }, [open]);
 
   const handleTwitter = () => {
-    window.location.replace('https://twitter.com/KlausenArt');
+    window.location.href('https://twitter.com/KlausenArt');
   };
   const handleInsta = () => {
-    window.location.replace('https://www.instagram.com/klausenartdesign/');
+    window.location.href('https://www.instagram.com/klausenartdesign/');
   };
   const handleFacebook = () => {
-    window.location.replace('https://www.facebook.com/profile.php?id=100086525372731');
+    window.location.href('https://www.facebook.com/profile.php?id=100086525372731');
   };
   const handleDiscord = () => {
-    window.location.replace('https://discord.com/channels/941601539380887582');
+    window.location.href('https://discord.com/channels/941601539380887582');
   };
    const handleMagicEden = () => {
-    window.location.replace('https://magiceden.io/u/klausenart');
+    window.location.href('https://magiceden.io/u/klausenart');
   };
    const handleOpenSea = () => {
-    window.location.replace('https://opensea.io/klausenart');
+    window.location.href('https://opensea.io/klausenart');
   };
    const handleYoutube = () => {
-    window.location.replace('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
+    window.location.href('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
   };
    const handleTiktok = () => {
-    window.location.replace('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
+    window.location.href('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
   };
   
   return (
