@@ -279,7 +279,7 @@ const Button = styled.button`
   //line-height: 30px;
   padding: 0px 0px;
   //border-radius: 40px;
-  background-color: 'transparent':
+  background-color: 'transparent';
   //backgroundColor: 'transparent';
   //background-color: #00FFFFFF;
   //background-color: #4e44ce;
