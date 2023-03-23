@@ -143,9 +143,9 @@ const TopNav: React.FC = () => {
 
       <SocialMedia>
         <Button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </Button>
-        <Button onClick={handleInsta}> <img alt="" src="/insta.png" /> </button>
-        <Button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </button>
-        <Button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </button>
+        <Button onClick={handleInsta}> <img alt="" src="/insta.png" /> </Button>
+        <Button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </Button>
+        <Button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </Button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
@@ -256,9 +256,10 @@ const Button = styled.button`
   font-size: 16px;
   font-weight: 600;
   height: 40px;
-  line-height: 50px;
+  width: 40px;
+  line-height: 40px;
   padding: 6px 24px;
-  border-radius: 100px;
+  border-radius: 40px;
   background-color: #4e44ce;
   margin: 0 auto;
   img {
