@@ -276,13 +276,14 @@ const Button = styled.button`
   height: 30px;
   width: 30px;
   //line-height: 30px;
-  padding: 0px -10px;
+  padding: 0px 0px;
   //border-radius: 40px;
   backgroundColor: 'transparent':
   //background-color: #00FFFFFF;
   //background-color: #4e44ce;
   //margin: 0 auto;
-  margin: 0 10px;
+  //margin: 0 10px;
+  margin-right: 10px;
   img {
     height: 30px;
     //margin-right: 3px;
