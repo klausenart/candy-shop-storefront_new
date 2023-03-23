@@ -282,7 +282,7 @@ const Button = styled.button`
   //line-height: 30px;
   padding: 0px 20px;
   //border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   //margin: 0 10px;
   //margin-right: 10px;
