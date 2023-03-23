@@ -257,9 +257,9 @@ const SocialMedia = styled.div`
   margin-right: 10px;
   margin-bottom: 20px;
 
-  img {
-    height: 40px;
-  }
+  //img {
+    //height: 40px;
+  //}
 `;
 
 const Button = styled.button`
