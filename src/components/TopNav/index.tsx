@@ -149,7 +149,7 @@ const TopNav: React.FC = () => {
         <Button onClick={handleDiscord}> <img alt="" src="/magiceden.png" /> </Button>
         <Button onClick={handleDiscord}> <img alt="" src="/opensea2.png" /> </Button>
         <Button onClick={handleDiscord}> <img alt="" src="/youtube.png" /> </Button>
-        <Button onClick={handleDiscord}> <img alt="" src="/youtube.png" /> </Button>
+        <Button onClick={handleDiscord}> <img alt="" src="/tiktok.png" /> </Button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
