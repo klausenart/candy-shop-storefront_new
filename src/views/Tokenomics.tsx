@@ -52,9 +52,10 @@ const Tokenomics: React.FC = () => {
 
             <p><b><u>Token Vesting by MeanFinance</u></b></p>
             <p>The LP tokens of the liquidity pools are put into vesting contracts by meanfinance, and are streamed back to the KART foundation wallet. That streams have been setup for 2 years, as a first step, but will be extended by new vesting streams over time, as the project is evolving. </p>
-            In other words: The LP tokens will be continuously emitted over the next two years to provide that no liquidity can be drawn off from the pools by the team, and therefore increasing the reputation and trust of the KART ecosystem.</p>
-            Adding more liquidity over time will also result in new vesting contracts to support the growth of the ecosystem. This will be defined by the team based on future strategy, as reflected in the roadmap.</p>
-            <u>In summary:</u><br>
+            <p>In other words: The LP tokens will be continuously emitted over the next two years to provide that no liquidity can be drawn off from the pools by the team, and therefore increasing the reputation and trust of the KART ecosystem.</p>
+            <p>Adding more liquidity over time will also result in new vesting contracts to support the growth of the ecosystem. This will be defined by the team based on future strategy, as reflected in the roadmap.</p>
+            <u>In summary:</u>
+            <br>
 
             &emsp;-	Token locking: 8 Streams re-emitting Raydium LP tokens to foundation wallet<br>
             &emsp;-	Vesting contracts: token locking is irreversible (can’t be dissolved for rug pull)<br>
