@@ -259,7 +259,7 @@ const SocialMedia = styled.div`
   padding: 20px;
   color: 'transparent';
   backgroundColor: 'transparent';
-  align-items: center;
+  align-items: left;
   
 
   //img {
