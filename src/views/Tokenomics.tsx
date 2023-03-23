@@ -17,7 +17,6 @@ const Tokenomics: React.FC = () => {
             <p> Klausen Art (KART) is a Solana SPL Token minted on the Solana Blockchain. There is a maximum amount of 10 Million KART. No more token can be ever created, meaning the tokens mint account has been freezed! </p>
             <b>The token address is:</b> GDzfemoYR5GkbK4YupYpyq3E8Du9fSfKXxKDpkdrqGjs 
             <a href="https://solscan.io/token/GDzfemoYR5GkbK4YupYpyq3E8Du9fSfKXxKDpkdrqGjs"> <b>(Check $KART on Solscan)</b> </a>
-            </p>
            </div>
             <br>
 
