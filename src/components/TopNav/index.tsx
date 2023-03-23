@@ -81,6 +81,15 @@ const TopNav: React.FC = () => {
   const handleTwitter = () => {
     window.location.replace('https://twitter.com/KlausenArt');
   };
+  const handleInsta = () => {
+    window.location.replace('https://www.instagram.com/klausenartdesign/');
+  };
+  const handleFacebook = () => {
+    window.location.replace('https://www.facebook.com/profile.php?id=100086525372731');
+  };
+  const handleDiscord = () => {
+    window.location.replace('https://discord.gg/jffYxxHqzB');
+  };
   
   
   return (
@@ -133,9 +142,9 @@ const TopNav: React.FC = () => {
       </Menu>
       <SocialMedia>
         <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
-        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
-        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
-        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        <button onClick={handleInsta}> <img alt="" src="/insta.png" /> </button>
+        <button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </button>
+        <button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
