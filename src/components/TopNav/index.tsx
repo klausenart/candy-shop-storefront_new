@@ -280,7 +280,8 @@ const Button = styled.button`
   //background-color: #4e44ce;
   margin: 0 auto;
   img {
-    margin-right: 3px;
+    height: 30px;
+    //margin-right: 3px;
   }
   
 `;
