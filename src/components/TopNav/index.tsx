@@ -278,7 +278,7 @@ const Button = styled.button`
   //font-size: 16px;
   //font-weight: 600;
   height: 30px;
-  width: '50%';
+  width: 50%;
   //width: 40px;
   //line-height: 30px;
   //padding: 0px 20px;
