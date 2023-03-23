@@ -15,6 +15,7 @@ import Collectibles from './Collectibles';
 import Art from './Art';
 import Info from './Info';
 import Home from './Home';
+import Tokenomics from './Tokenomics';
 import TopNav from '@/components/TopNav';
 import { RouteName } from '@/constant/routeNames';
 import { useUpdateShop } from '@/hooks/useUpdateShop';
@@ -40,6 +41,7 @@ export const ShopRouter = () => {
           <Route path={RouteName.digitalCollectibles} element={<Collectibles />} />
           <Route path={RouteName.digitalArt} element={<Art />} />
           <Route path={RouteName.info} element={<Info />} />
+          <Route path={RouteName.tokenomics} element={<Tokenomics />} />
         </Routes>
       </MainContainer>
     </main>
