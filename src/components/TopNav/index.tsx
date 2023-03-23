@@ -250,16 +250,16 @@ const Button = styled.button`
   border: none;
   color: #00FFFFFF;
   cursor: pointer;
-  display: flex;
+  //display: flex;
   align-items: center;
-  font-family: 'Inter', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  //font-family: 'Inter', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  //font-size: 16px;
+  //font-weight: 600;
   height: 40px;
   width: 40px;
   line-height: 40px;
-  padding: 1px 1px;
-  border-radius: 40px;
+  //padding: 1px 1px;
+  //border-radius: 40px;
   background-color: #4e44ce;
   margin: 0 auto;
   img {
