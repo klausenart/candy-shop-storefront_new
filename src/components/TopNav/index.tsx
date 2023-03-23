@@ -132,7 +132,7 @@ const TopNav: React.FC = () => {
         
       </Menu>
       <SocialMedia>
-        <button onClick={handleTwitter}> <img alt="" src="/logo.png" /> </button>
+        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
       </SocialMedia>
       <Wallet>
         <ConnectButton />
