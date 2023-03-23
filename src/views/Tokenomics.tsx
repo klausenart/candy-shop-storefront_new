@@ -72,6 +72,7 @@ const Tokenomics: React.FC = () => {
             <p><b><u>Note</u></b></p>
             This is a very early idea of how the available KART is circulating in the ecosystem. The team is concerning of locking Team tokens successively with an expanded time range to provide a healthy tokenomics and growth of the project.
         </div>
+       </div>
     </DesContainer>
   );
 };
