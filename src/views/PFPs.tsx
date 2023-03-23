@@ -34,8 +34,18 @@ const PFPs: React.FC = () => {
 export default PFPs;
 
 const FILTERS = [
-  { name: 'Birdman', collectionId: '2', identifier: 1235887132 },
-  { name: 'Mr. Doodle', collectionId: '3', identifier: 1235887133 },
+  { name: 'gLitCh_eRR0r / Aliens', collectionId: '1', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Angels', collectionId: '2', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Ants', collectionId: '3', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Apes', collectionId: '4', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Arabs', collectionId: '5', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Astronauts', collectionId: '6', identifier: 0 },
+  { name: 'gLitCh_eRR0r / Fishes', collectionId: '7', identifier: 0 },
+  { name: 'Steampunk / John', collectionId: '8', identifier: 0 },
+  { name: 'Steampunk / Mary', collectionId: '9', identifier: 0 },
+  { name: 'Steampunk / Rapunzel', collectionId: '10', identifier: 0 },
+  { name: 'Steampunk / Musician', collectionId: '11', identifier: 0 },
+  { name: 'Steampunk / Witch', collectionId: '12', identifier: 0 },
 ];
 
 const DesContainer = styled.div`
