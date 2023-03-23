@@ -257,6 +257,9 @@ const SocialMedia = styled.div`
   margin-right: 10px;
   margin-bottom: 20px;
   padding: 20px;
+  color: 'transparent';
+  backgroundColor: 'transparent';
+  
   
 
   //img {
