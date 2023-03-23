@@ -18,7 +18,7 @@ const Tokenomics: React.FC = () => {
             <b>The token address is:</b> GDzfemoYR5GkbK4YupYpyq3E8Du9fSfKXxKDpkdrqGjs 
             <a href="https://solscan.io/token/GDzfemoYR5GkbK4YupYpyq3E8Du9fSfKXxKDpkdrqGjs"> <b>(Check $KART on Solscan)</b> </a>
             </p>
-
+           </div>
             <br>
 
             <p><b><u>Liquidity</b></u></p>
@@ -71,7 +71,7 @@ const Tokenomics: React.FC = () => {
             <br>
             <p><b><u>Note</u></b></p>
             This is a very early idea of how the available KART is circulating in the ecosystem. The team is concerning of locking Team tokens successively with an expanded time range to provide a healthy tokenomics and growth of the project.
-        </div>
+        
        </div>
     </DesContainer>
   );
