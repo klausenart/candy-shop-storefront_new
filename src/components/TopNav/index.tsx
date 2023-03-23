@@ -90,7 +90,18 @@ const TopNav: React.FC = () => {
   const handleDiscord = () => {
     window.location.replace('https://discord.com/channels/941601539380887582');
   };
-  
+   const handleMagicEden = () => {
+    window.location.replace('https://magiceden.io/u/klausenart');
+  };
+   const handleOpenSea = () => {
+    window.location.replace('https://opensea.io/klausenart');
+  };
+   const handleYoutube = () => {
+    window.location.replace('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
+  };
+   const handleTiktok = () => {
+    window.location.replace('https://www.youtube.com/channel/UC8bGv6NHUHMMYj3dGAtVrpw');
+  };
   
   return (
     <HeaderBar>
@@ -138,7 +149,6 @@ const TopNav: React.FC = () => {
             </Popper>
           </DropdownAnchor2> 
         )}
-        
       </Menu>
 
       <SocialMedia>
@@ -146,14 +156,16 @@ const TopNav: React.FC = () => {
         <Button onClick={handleInsta}> <img alt="" src="/insta.png" /> </Button>
         <Button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </Button>
         <Button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </Button>
-        <Button onClick={handleDiscord}> <img alt="" src="/magiceden.png" /> </Button>
-        <Button onClick={handleDiscord}> <img alt="" src="/opensea2.png" /> </Button>
-        <Button onClick={handleDiscord}> <img alt="" src="/youtube.png" /> </Button>
-        <Button onClick={handleDiscord}> <img alt="" src="/tiktok.png" /> </Button>
+        <Button onClick={handleMagicEden> <img alt="" src="/magiceden.png" /> </Button>
+        <Button onClick={handleOpenSea}> <img alt="" src="/opensea2.png" /> </Button>
+        <Button onClick={handleYoutube}> <img alt="" src="/youtube.png" /> </Button>
+        <Button onClick={handleTiktok}> <img alt="" src="/tiktok.png" /> </Button>
       </SocialMedia>
+      
       <Wallet>
         <ConnectButton />
       </Wallet>
+      
     </HeaderBar>
   );
 };
@@ -264,7 +276,8 @@ const Button = styled.button`
   line-height: 40px;
   //padding: 1px 1px;
   //border-radius: 40px;
-  background-color: #4e44ce;
+  background-color: #00FFFFFF;
+  //background-color: #4e44ce;
   margin: 0 auto;
   img {
     margin-right: 3px;
