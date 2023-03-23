@@ -277,9 +277,9 @@ const Button = styled.button`
   //font-family: 'Inter', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   //font-size: 16px;
   //font-weight: 600;
-  height: 80%;
-  width: 40px;
-  width: 40px;
+  height: 30px;
+  width: '50%';
+  //width: 40px;
   //line-height: 30px;
   //padding: 0px 20px;
   //border-radius: 40px;
