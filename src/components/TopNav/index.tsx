@@ -21,6 +21,7 @@ const ROUTES_SOLANA = [
   { url: RouteName.pfps, name: 'PFPs' },
   { url: RouteName.digitalCollectibles, name: 'Collectibles' },
   { url: RouteName.digitalArt, name: 'Art' },
+  { url: RouteName.digitalArt, name: 'Social' },
 ];
 
 const getRoutes = () => {
