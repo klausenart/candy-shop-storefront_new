@@ -141,7 +141,9 @@ const TopNav: React.FC = () => {
         
       </Menu>
       <SocialMedia>
-        <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        <TwitterButton>
+          <button onClick={handleTwitter}> <img alt="" src="/twitter.png" /> </button>
+        </TwitterButton>
         <button onClick={handleInsta}> <img alt="" src="/insta.png" /> </button>
         <button onClick={handleFacebook}> <img alt="" src="/facebook.png" /> </button>
         <button onClick={handleDiscord}> <img alt="" src="/discord.png" /> </button>
@@ -245,7 +247,26 @@ const SocialMedia = styled.div`
   }
 `;
 
-
+const TwitterButton = styled(Button)`
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 50px;
+  padding: 6px 24px;
+  border-radius: 100px;
+  background-color: #4e44ce;
+  margin: 0 auto;
+  img {
+    margin-right: 3px;
+  }
+  
+`;
 
 const Menu = styled.ul`
   list-style: none;
