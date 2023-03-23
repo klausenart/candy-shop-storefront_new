@@ -88,7 +88,7 @@ const TopNav: React.FC = () => {
     window.location.replace('https://www.facebook.com/profile.php?id=100086525372731');
   };
   const handleDiscord = () => {
-    window.location.replace('https://discord.gg/jffYxxHqzB');
+    window.location.replace('https://discord.com/channels/941601539380887582');
   };
   
   
