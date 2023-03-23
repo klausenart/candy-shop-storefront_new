@@ -20,6 +20,6 @@ export enum RouteName {
   token = 'token',
   info = 'info',
   tokenKart = 'tokenKart',
-  tocenomics = 'tokenomics'
+  tokenomics = 'tokenomics'
   
 }
