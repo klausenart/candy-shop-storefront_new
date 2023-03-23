@@ -246,7 +246,7 @@ const SocialMedia = styled.div`
   }
 `;
 
-const Button = styled(Button)`
+const Button = styled.button`
   border: none;
   color: #fff;
   cursor: pointer;
