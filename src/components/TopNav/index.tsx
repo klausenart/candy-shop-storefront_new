@@ -12,7 +12,7 @@ import { RouteName } from '@/constant/routeNames';
 import { NETWORK } from '@/utils/candy-shop';
 import { getBlockchain } from '@/utils/shop';
 
-import AppBar from '@mui/material/AppBar';
+//This is a check
 
 const ROUTES_ETH = [
   { url: RouteName.home, name: 'Marketplace' },
