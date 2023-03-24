@@ -23,6 +23,7 @@ const Art: React.FC = () => {
         walletConnectComponent={<ConnectButton />}
         filters={FILTERS}
         shopFilters = {false}
+        url={'/marketplace/:tokenMint'}
         
 
         
