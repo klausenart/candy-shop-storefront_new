@@ -36,6 +36,7 @@ export default Collectibles;
 const FILTERS = [
   { name: 'Bonsai', collectionId: '1', identifier: -899267302 },
   { name: 'Dragon Coin', collectionId: '2', identifier: -1827299029 },
+  { name: 'Community NFTs', collectionId: '3', identifier: 186065487 }
 ];
 
 const DesContainer = styled.div`
